@@ -1,0 +1,40 @@
+.progress-wrapper{
+  position:fixed;
+  top:20px;
+  right:20px;
+  z-index:999;
+}
+
+.progress-card{
+  background:white;
+  padding:18px 22px;
+  width:260px;
+  border-radius:10px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.2);
+  text-align:center;
+}
+
+.progress-card h3{
+  margin-bottom:10px;
+  font-size:16px;
+}
+
+.progress-bar{
+  width:100%;
+  height:10px;
+  background:#eee;
+  border-radius:8px;
+  overflow:hidden;
+}
+
+.progress-fill{
+  height:100%;
+  background:#ff0000;
+  width:0%;
+  transition:width 0.4s ease;
+}
+
+.progress-card p{
+  margin-top:8px;
+  font-weight:600;
+}
